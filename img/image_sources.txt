@@ -1,0 +1,7 @@
+/* Flag Icons
+------------------------------ */
+source:  http://www.countryflags.com/en/
+
+/* Aircraft Images
+------------------------------ */
+source:  https://wall.alphacoders.com/by_sub_category.php?id=57217
