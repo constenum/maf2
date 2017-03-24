@@ -232,12 +232,7 @@ template {
 
 #sanmenu > ul li {
   display: inline-block;
-  *display: inline;
   zoom: 1;
-}
-
-#sanmenu > ul li.right {
-  float: right;
 }
 
 #sanmenu > ul li a {
@@ -271,20 +266,6 @@ template {
   }
   #sanmenu > ul li {
     display: none;
-  }
-  #sanmenu > ul li.right {
-    float: none;
-  }
-}
-
-@media (min-width: 615px) {
-  #sanmenu > ul > li.collapsed {
-    display: inline-block !important;
-    *display: inline;
-    zoom: 1;
-  }
-  #sanmenu > ul ul li.collapsed {
-    display: block !important;
   }
 }
 
@@ -405,7 +386,7 @@ html {
   box-sizing: inherit;
 }
 
-/* Default Styles
+/* Base Styles
 -------------------------------------------------------------------------------- */
 body {
   margin: 0 auto;
@@ -657,8 +638,6 @@ picture img {
   display: none;
 }
 
-/* Bourbon Refill - Tooltips
--------------------------------------------------------------------------------- */
 /* 3 Column Grid System
 -------------------------------------------------------------------------------- */
 .row {
@@ -680,7 +659,7 @@ picture img {
   min-height: 1px;
 }
 
-/* Media Queries
+/* Content Media Queries
 -------------------------------------------------------------------------------- */
 @media only screen and (min-width: 615px) and (max-width: 960px) {
   .col-1-2 {
@@ -761,7 +740,7 @@ picture img {
   }
 }
 
-/* Image Media Queries
+/* Background Media Queries
 -------------------------------------------------------------------------------- */
 @media only screen and (min-width: 667px) {
   .parallax-image-1 {
@@ -863,6 +842,8 @@ picture img {
   }
 }
 
+/* Bourbon Refill - 
+-------------------------------------------------------------------------------- */
 /* Flag Icons
 --------------------------------------------------------------------------------
 source:  http://www.countryflags.com/en/ */
